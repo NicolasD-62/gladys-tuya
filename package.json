@@ -1,0 +1,26 @@
+{
+  "name": "gladys-tuya",
+  "version": "0.1.0",
+  "description": "Gladys module to control Tuya devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasD-62/gladys-tuya.git"
+  },
+  "keywords": [
+    "gladys",
+    "tuya"
+  ],
+  "author": "Nicolas Dubois",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicolasD-62/gladys-tuya/issues"
+  },
+  "homepage": "https://github.com/NicolasD-62/gladys-tuya#readme",
+  "dependencies": {
+    "tuyapi": "3.2.1"
+  }
+}
