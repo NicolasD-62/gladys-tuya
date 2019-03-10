@@ -4,7 +4,7 @@ module.exports = function(sails) {
 	// const init = require('./lib/init.js');
 	const exec = require('./lib/exec.js');
 
-/*	gladys.on('ready', function() {
+	/*gladys.on('ready', function() {
 		init();
 	});*/
 
