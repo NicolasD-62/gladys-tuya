@@ -3,7 +3,7 @@
 [![dependencies Status](https://badgen.net/david/dep/NicolasD-62/gladys-tuya)](https://david-dm.org/NicolasD-62/gladys-tuya)
 
 # gladys-tuya
-Gladys module to control your Tuya devices.
+Gladys module to control your Tuya devices (alias Smart Life, Swift, ...).
 
 ## Prerequisites
 
@@ -67,7 +67,7 @@ $ sudo npm un @tuyapi/cli -g
 
 ## Installation
 
-1. Install the module through Gladys modules pannel and reboot Gladys when it's done. 
+1. Install the module through Gladys modules panel and reboot Gladys when it's done. 
 
 ## Usage
 

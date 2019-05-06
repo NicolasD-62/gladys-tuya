@@ -22,6 +22,6 @@
   "homepage": "https://github.com/NicolasD-62/gladys-tuya#readme",
   "dependencies": {
     "lodash.find": "^4.6.0",
-    "tuyapi": "4.0.3"
+    "tuyapi": "^4.0.4"
   }
 }
