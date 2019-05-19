@@ -1,13 +1,13 @@
 module.exports = {
   /**
    * Tuya device list
-   *  - id : deviceunique id
-   *  - key : secret key
-   *  - name : device usual name
-   *  - type : device type (see id's values of devicesTypes)
+   *  - id: device unique id
+   *  - key: local secret key
+   *  - type: device type (see id's values of devicesTypes)
+   *  - name: device usual name (optional, if not set, default device name will be used)
    */
   devices: [
-    { id: '07607580xxxxxxxxxxxx', key: 'xxxxxxxxxxxxxxxx', name: 'Volet 1', type: 'curtain' }, // Volet 1
-    { id: '63701040xxxxxxxxxxxx', key: 'xxxxxxxxxxxxxxxx', name: 'Volet 2', type: 'curtain' }, // Volet 2
+    { id: '63701040xxxxxxxxxxxx', key: 'xxxxxxxxxxxxxxxx', type: 'switch_1', name: 'Lampe salon' }, // Simple On/Off switch
+    { id: '07607580xxxxxxxxxxxx', key: 'xxxxxxxxxxxxxxxx', type: 'curtain', name: 'Volet Chambre' }, // Volet roulant
   ]
 };
