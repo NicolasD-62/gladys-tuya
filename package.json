@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NicolasD-62/gladys-tuya.git"
+    "url": "git+https://github.com/NickDub/gladys-tuya.git"
   },
   "keywords": [
     "gladys",
@@ -17,10 +17,11 @@
   "author": "Nicolas Dubois",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NicolasD-62/gladys-tuya/issues"
+    "url": "https://github.com/NickDub/gladys-tuya/issues"
   },
-  "homepage": "https://github.com/NicolasD-62/gladys-tuya#readme",
+  "homepage": "https://github.com/NickDub/gladys-tuya#readme",
   "dependencies": {
-    "tuyapi": "3.2.1"
+    "lodash.find": "^4.6.0",
+    "tuyapi": "^4.0.4"
   }
 }

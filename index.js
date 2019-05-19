@@ -1,17 +1,17 @@
-module.exports = function(sails) {
-	const install = require('./lib/install.js');
-	const setup = require('./lib/setup.js');
-	// const init = require('./lib/init.js');
-	const exec = require('./lib/exec.js');
+module.exports = function (sails) {
+	const install = require('./lib/install');
+	const setup = require('./lib/setup');
+	const init = require('./lib/init');
+	const exec = require('./lib/exec');
 
-/*	gladys.on('ready', function() {
+	gladys.on('ready', () => {
 		init();
-	});*/
+	});
 
 	return {
-		install : install,
+		install: install,
 		setup: setup,
-		exec : exec
+		iniy: init,
+		exec: exec
 	};
-
 };
