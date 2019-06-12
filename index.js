@@ -11,7 +11,7 @@ module.exports = function (sails) {
 	return {
 		install: install,
 		setup: setup,
-		iniy: init,
+		init: init,
 		exec: exec
 	};
 };
